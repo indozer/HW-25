@@ -1,0 +1,29 @@
+.box-boxes {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 118, 118);
+}
+
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 189, 255);
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+.box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(157, 255, 118);
+    left: 100px;
+    top: 100px;
+}
